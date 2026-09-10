@@ -4,4 +4,4 @@
 4. React.createElement takes three attributes (the element, an object, what you want to display on the DOM)
 5. React.render helps in rendering whatever you want on the DOM
 6. The most costly operation is when there are changes in the DOM display and the DOMtree is getting changed in the backend.
-7. A react element is nothing but a react object
+7. A react element is nothing but a javascript object.
