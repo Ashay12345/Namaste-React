@@ -5,3 +5,4 @@
 5. React.render helps in rendering whatever you want on the DOM
 6. The most costly operation is when there are changes in the DOM display and the DOMtree is getting changed in the backend.
 7. A react element is nothing but a javascript object.
+8. The "render" basically converts this object into an H1 tag and displays it on the DOM.
