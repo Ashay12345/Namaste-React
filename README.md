@@ -6,3 +6,4 @@
 6. The most costly operation is when there are changes in the DOM display and the DOMtree is getting changed in the backend.
 7. A react element is nothing but a javascript object.
 8. The "render" basically converts this object into an H1 tag and displays it on the DOM.
+9. npm (officially standing for Node Package Manager) is the default package manager and online registry for JavaScript and Node.js.
