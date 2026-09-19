@@ -12,3 +12,13 @@
 12. Don't upload on Git what you can regenerate. Git should only have essential things.
 13. npm means installing a package, while npx means executing the same package.
 14. Using CDN links is not a preferred way to bring React into your project.
+15. The core difference is that package.json defines the intended configuration and flexible version ranges for your project's dependencies, while package-lock.json locks down the exact, specific versions of every package and sub-dependency actually installed to ensure identical environments across different machines
+16. The node_modules folder in a React project is a local directory where npm or yarn downloads and stores all third-party packages, libraries, and their underlying dependencies required to build and run your application
+17. Parcel also does HMR (Hot Module Replacement) for you. Parcel uses a file watching algorithm in c++ in order to execute HMR.
+18. Parcel also image optimization for you. Uploading images in web browser is the most expensive performance in the browser.
+19. Parcel also minification when you do a production build. Parcel also does differential bundling for us. When you execute the command npx parcel build index.html it bundles all the files in the dist folder.
+20. JSX is a javascript syntax which makes it easier to create React elements.
+21. A js engine understands ecmascript. Even thought the js engine can't understand JSX, it still gets executed perfectly because parcel is doing the translation behind the scenes. The entire JSX code is transpiled before it goes to the js engine. The transpiling is done by a a package by the name of "babel".
+22. Babel is a compiler/transpiler that translates new ES6 code or React code into older version of javascript code which older browsers can understand.
+23. There are two types of React components: Class based components and Functional components. Class based components are the old way to create react components while functional components is the new way to create react components. Class based components use javascript classes while functional components use javascript functions to create components.
+24. Writing javascript inside of JSX is a powerful feature of React.
