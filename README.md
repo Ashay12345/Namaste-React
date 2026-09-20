@@ -1,7 +1,7 @@
 1. Emmet is an essential toolkit and plugin for text editors that lets web developers write HTML and CSS code much faster using short CSS-like abbreviations
 2. A Content Delivery Network (CDN) is a group of connected servers spread across the world that work together to load web pages and internet content faster.
 3. When we use React CDN links wrapped in the script tags, we have React injected inside it.
-4. A react element at the end of the day is an object.
+4. A react element at the end of the day is an object. When we render this object onto the DOM, it becomes an HTML element.
 5. We are going to use webpack bundler for Namaste React.
 6. We will be using "jest" for testing.
 7. package.json: It is basically a configuration for our npm. The packages on which our project is dependent on are called "dependencies". npm takes care of the version of the dependecies. Npm does this taking care of the packages in the package.json file.
@@ -22,3 +22,7 @@
 22. Babel is a compiler/transpiler that translates new ES6 code or React code into older version of javascript code which older browsers can understand.
 23. There are two types of React components: Class based components and Functional components. Class based components are the old way to create react components while functional components is the new way to create react components. Class based components use javascript classes while functional components use javascript functions to create components.
 24. Writing javascript inside of JSX is a powerful feature of React.
+25. Functional Component: It is a javascript function that accepts inputs and returns JSX to describe a user intereface. If you write curly braces anywhere inside functional component in react, you can use pure javascript code. JSX is not HTML. JSX stands for Javascript XML which is HTML like syntax.
+26. When you create a React app, the first major step is to create a design mock so that you are clear about the layout of your website.
+27. In react, there is a feature named "props". Props is the short form for properties. Properties can be passed to a component. Props, at the end of the day are arguments to a javascript function. Passing a prop to a component is like passing an argument to a function. In react, when you have to dynamically pass some data in a component, you pass the data as a prop.
+28. "Config driven UI". This is done because our websites are driven by data a.k.a "configs". Controlling how your UI looks like using data is called config driven UI.
